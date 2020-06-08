@@ -1,20 +1,18 @@
----
-title: Probabilidades Ejercicios
-created: '2020-05-31T00:35:38.456Z'
-modified: '2020-06-06T03:24:51.485Z'
----
+# Probabilidades
 
-# Probabilidades Ejercicios
+## Definición
+
+$$
+P(A) := \frac{|A|}{|\omega|} \rightarrow \frac{\textnormal{cantidad de resultados favorables a A}}{\textnormal{número de resultados}}
+$$
 
 ## Ejercicio 1
 
-Un experimento consiste en lanzar un dado y después lanzar una moneda una vez si el número en el dado es par. Si el número en el dado es impar, la moneda se lanza dos veces.
+Un experimento consiste en lanzar un dado, si el número es par se lanza una moneda. Si el número en el dado es impar, la moneda se lanza dos veces.
+
 Usar la notación 2S, por ejemplo, para denotar el evento de que el dado muestre 2 y después la moneda salga sello y 1SC para denotar el evento de que el dado muestre 1 seguido por un sello y después una cara en la moneda.
 
 a) Listar los elementos del espacio muestral de este experimento.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 \begin{array}{l}
@@ -26,25 +24,13 @@ $$
 \end{array}
 $$
 
-</p>
-</details>
-
 b) Calcular la probabilidad de que salga en el dado un número menor que 3 o bien ocurran dos sellos (o ambos).
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 P(\left\{2 S, 2 C, 1 S S, 1 S C, 1 C S, 1 C C, 3 S S, 5 S S\right\})  = \frac{8}{18}
 $$
 
-</p>
-</details>
-
 c) Calcular la probabilidad de que salga en el dado un número menor que 4 y al menos una cara.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 B = \left\{ \\
@@ -54,16 +40,10 @@ B = \left\{ \\
 $$
 
 $$
-P(B) = \frac{8}{18} = 0.3888
+P(B) = \frac{7}{18}
 $$
 
-</p>
-</details>
-
 d) Calcular la probabilidad de que salga en el dado un número mayor o igual a 5 y al menos un sello.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 C = \left\{ \\
@@ -75,13 +55,7 @@ $$
 P(C) = \frac{4}{18} = 0.22
 $$
 
-</p>
-</details>
-
 e) Sabiendo que ocurre número impar en el dado. Calcular la probabilidad de que salgan dos sellos.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 \begin{array}{l}
@@ -102,9 +76,6 @@ $$
 P(D) = \frac{3}{12} = 0.25
 $$
 
-</p>
-</details>
-
 ## Ejercicio 2
 
 En la producción de tornillos de cierta magnitud. El 5 % de ellos no tienen el largo correcto, el 7 % no tienen el diámetro correcto y el 2 % tiene ambos defectos. 
@@ -122,9 +93,6 @@ $$
 Se elige un tornillo al azar. Encontrar la probabilidad que:
 
 a) Tenga al menos uno de los dos defectos.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 P(A) = 0.03 + 0.02 = 0.05
@@ -144,13 +112,7 @@ $$
 \end{aligned}
 $$
 
-</p>
-</details>
-
 b) Tenga sólo el defecto del largo.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 \begin{aligned}
@@ -160,13 +122,8 @@ $$
 \end{aligned}
 $$
 
-</p>
-</details>
-
 c) Tenga sólo uno de los dos defectos.
 
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 \begin{aligned}
@@ -176,13 +133,7 @@ $$
 \end{aligned}
 $$
 
-</p>
-</details>
-
 d) No tenga defectos.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 \begin{aligned}
@@ -191,6 +142,3 @@ $$
 &=0.90
 \end{aligned}
 $$
-
-</p>
-</details>

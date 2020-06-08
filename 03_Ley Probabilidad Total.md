@@ -1,9 +1,3 @@
----
-title: 03_Ley Probabilidad Total
-created: '2020-06-06T03:41:58.143Z'
-modified: '2020-06-06T03:49:12.194Z'
----
-
 # Ley Probabilidad Total
 
 $$

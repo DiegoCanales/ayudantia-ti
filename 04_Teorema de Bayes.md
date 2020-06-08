@@ -1,9 +1,3 @@
----
-title: 04_Teorema de Bayes
-created: '2020-06-06T03:21:34.570Z'
-modified: '2020-06-06T05:44:58.822Z'
----
-
 # Teorema de Bayes
 
 $$
@@ -23,8 +17,7 @@ Un administrador de la red informática de una empresa estima que la probabilida
 
 El historial del hacker, permite suponer que evaluará la red como insegura cuando en realidad lo sea con probabilidad 0,90, mientras que la probabilidad que lo evalúe como segura dado que lo es, es de 0,97.
 
-<details><summary>Datos</summary>
-<p>
+### Datos
 
 **Nomenclatura**
 
@@ -46,13 +39,7 @@ El historial del hacker, permite suponer que evaluará la red como insegura cuan
 
 ![ej01-04](./images/04_ej01-04.png)
 
-</p>
-</details>
-
 a) Determine la probabilidad de que el hacker evalue la red como insegura.
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 P(H_{S}^{c}) = ??
@@ -66,19 +53,13 @@ $$
 P(H_{S}^{c}) = 0.99 \cdot 0.33 + 0.01 \cdot 0.9 = 0.087
 $$
 
-</p>
-</details>
-
 b) Si el hacker concluye que la red es segura, ¿cuál es la probabilidad que no lo sea?
-
-<details><summary>Respuesta</summary>
-<p>
 
 $$
 P(S^c/H_{S}) = ??
 $$
 
-De independencia se sabe que:
+De probabilidad condicional se sabe que:
 
 $$
 P(S^c/H_{S}) = \frac{P(H_{S} \cap S^c)}{P(H_{S})} \;\;\;\;\;\;\; P(H_{S}/S^c) = \frac{P(H_{S} \cap S^c)}{P(S^c)}
@@ -97,6 +78,3 @@ Se despeja $P(S^c/H_{S})$ y se reemplazan los datos.
 $$
 P(S^c/H_{S}) = \frac{P(S^c) \cdot P(H_{S}/S^c)}{P(H_{S})} = \frac{0.01 \cdot 0.1 }{ 0.97 } = 0.001
 $$
-
-</p>
-</details>

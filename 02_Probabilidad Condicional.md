@@ -1,9 +1,3 @@
----
-title: Probabilidad Condicional
-created: '2020-06-06T02:27:59.791Z'
-modified: '2020-06-06T03:19:11.366Z'
----
-
 # Probabilidad Condicional
 
 $$
@@ -24,9 +18,6 @@ En una oficina hay 100 computadores, algunos de ellos son portátiles mientras q
 
 Una persona entra a la oficina y escoge una máquina al azar, descubre que es nueva. ¿Cuál es la probabilidad que sea portátil?
 
-<details><summary>Respuesta</summary>
-<p>
-
 |        | Portátiles | Escritorio | Total |
 |:------:|:----------:|:----------:|:-----:|
 | Nuevos | 0.40       | 0.30       | 0.70  |
@@ -35,6 +26,3 @@ Una persona entra a la oficina y escoge una máquina al azar, descubre que es nu
 $$
 P(\text{Portátil}/\text{Nuevo}) = \frac{P(\text{Portátil} \cap \text{Nuevo})}{P(\text{Nuevo})} = \frac{\frac{40}{100}}{\frac{70}{100}} = \frac{4}{7}
 $$
-
-</p>
-</details>
